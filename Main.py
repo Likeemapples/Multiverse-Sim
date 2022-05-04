@@ -89,19 +89,19 @@ while True:
                     print("no")
 
 
-    currentUniverse = int(currentUniverse) + 1
-    s1 = universes[int(currentUniverse)][0]
-    s2 = universes[int(currentUniverse)][1]
-    s3 = universes[int(currentUniverse)][2]
-    s4 = universes[int(currentUniverse)][3]
-    bgColor1 = s1*1.59375
-    bgColor2 = s2*3.1875
-    bgColor3 = s3*6.375
-    bgColor = (bgColor1,bgColor2,bgColor3)
-    playerSizeX = s1*0.625 + 10
-    playerSizeY = s2*1.25 + 10
-    PlayerImg = pygame.transform.scale(loadPlayerImg,(playerSizeX,playerSizeY))
-    playerSpeed = s1/10
+    #currentUniverse = int(currentUniverse) + 1
+    #s1 = universes[int(currentUniverse)][0]
+    #s2 = universes[int(currentUniverse)][1]
+    #s3 = universes[int(currentUniverse)][2]
+    #s4 = universes[int(currentUniverse)][3]
+    #bgColor1 = s1*1.59375
+    #bgColor2 = s2*3.1875
+    #bgColor3 = s3*6.375
+    #bgColor = (bgColor1,bgColor2,bgColor3)
+    #playerSizeX = s1*0.625 + 10
+    #playerSizeY = s2*1.25 + 10
+    #PlayerImg = pygame.transform.scale(loadPlayerImg,(playerSizeX,playerSizeY))
+    #playerSpeed = s1/10
 
     keys = pygame.key.get_pressed()
     if keys[K_d] or keys[K_RIGHT]: 
